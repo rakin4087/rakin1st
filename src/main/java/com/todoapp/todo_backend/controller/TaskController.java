@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/tasks")
-@CrossOrigin(origins = "http://localhost:5173")  // allow React frontend to access API
+@CrossOrigin(origins = "https://frolicking-zuccutto-9c4cf4.netlify.app")  // allow React frontend to access API
 public class TaskController {
 
     private final TaskRepository taskRepo;
